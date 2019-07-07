@@ -6,8 +6,7 @@ import java.util.TreeSet;
 public class Main {
 
     public static void main(String[] args) {
-        Set<Integer> numbers = new TreeSet<>(new SortingNumbersComparator() {
-        });
+        Set<Integer> numbers = new TreeSet<>(new SortingNumbersComparator());
         numbers.add(2);
         numbers.add(1);
         numbers.add(4);
